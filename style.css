@@ -1,0 +1,328 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=IBM+Plex+Serif:wght@300&family=Kablammo&family=Lobster+Two&family=Noto+Sans:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Orbitron:wght@400..900&family=Playfair:ital,wght@1,400;1,500;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Single+Day&family=Sixtyfour&display=swap');
+
+
+.checkpoint2{
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  /* margin: 0 auto; */
+  background-image: linear-gradient( to right, rgb(90, 88, 88) 0%, rgb(244, 244, 244) 50%, rgb(238, 214, 168) 50%, orange 100%);
+  min-height: 100vh;
+  display: flex;
+  margin-top: -93px;
+  margin-bottom: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  color:red;
+  animation: fadein 2s;
+  margin-left: 750px;
+
+}
+label {
+  margin-bottom: 8px;
+  color:darkmagenta;
+  /* margin-left: 80%; */
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.brandimg {
+  display: flex;
+}
+.left-section,
+.right-section {
+  width: 50%;
+  padding: 20px;
+}
+.left-section img {
+  width: 85%;
+  height: 85%;
+}
+.right-section {
+  width: 30%;
+  padding: 5px;
+}
+
+.left-image-section img{
+  /* border-radius: 50%; */
+ width: 500px;
+ height: auto;
+ top: 140%;
+ position:absolute;
+ left: 100px;
+}
+
+.package-card {
+  width: 100%;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.package-card img {
+  width: 100%;
+
+  height: 250px;
+}
+.package-card h3 {
+  margin-top: 10px;
+}
+.package-card p {
+  font-style: oblique;
+  font-size: 14px;
+}
+.package-card .price {
+  font-weight: bold;
+}
+
+.btn {
+  color: #fff;
+  background-color: orange;
+  font-weight: bolder;
+  text-align: center;
+}
+.orange {
+  padding: 8px;
+  border: #ed7b00;
+  color: #fff;
+  background-color: orange;
+  border-radius: 10px;
+}
+.bi {
+  color: orange;
+}
+.service-card {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 400px; /* Set a fixed height for all service cards */
+  overflow: hidden; /* Hide overflow content */
+}
+.service-card h3 {
+  margin-top: 10px;
+}
+.service-card ul {
+  gap: 5px;
+  text-align: left;
+  /* margin-top: 20px; */
+  margin-bottom: 5px;
+}
+.service-card ul li {
+  /* list-style: none; */
+  margin-bottom: 10px;
+}
+.service-card img {
+  max-width: 100%;
+  height: auto;
+  /* margin-bottom: 10px; */
+  max-height: 200px;
+}
+h3 {
+  justify-content: center;
+  text-align: center;
+}
+/* CSS for adjusting the width of the modal */
+
+#slider img{
+  height: 500px;  
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+#slider p{
+  color: #fff;
+}
+
+#slider .carousel-item:hover img{
+  transform: scale(1.1);
+}
+
+.footer{
+  /* position: relative; */
+  position: absolute;
+  /* background: rgb(180,250,250);
+  background: linear-gradient(232deg, rgba(50,250,250,1) 0%, rgba(20,118,242,1) 100%); */
+  background-color:#1ac4d0;
+  /* bottom: -105%; */
+  top: 810%;
+  height: 343px;
+  color: #fff;
+ margin-left: -180px;
+ color: whitesmoke;
+/* margin-right: -805px; */
+  
+}
+#links{
+  margin-left: 30px;
+}
+
+.footer i{
+  color: white;
+  margin-right: 10px;
+}
+.footer a{
+  color: white;
+  background-color:#1ac4d0;
+}
+.footer p{
+  color: #fff;
+  margin-top: 22px;
+}
+.footer a:hover{
+  color: #000;
+}
+#about-us-heading{
+  font-family: "Berkshire Swash";
+  word-spacing:2%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=IBM+Plex+Serif:wght@300&family=Kablammo&family=Lobster+Two&family=Noto+Sans:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Orbitron:wght@400..900&family=Playfair:ital,wght@1,400;1,500;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&family=Single+Day&family=Sixtyfour&display=swap');
+
+#logoimg {
+  width: 50px;
+}
+.navbar {
+  background-color: #1ac4d0;
+}
+.navbar-brand {
+  margin: 5px;
+  color: #fff;
+  font-family: "Berkshire Swash";
+  margin-right: 295px;
+}
+.nav-link {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  /* border: 2px solid green; */
+  border-radius: 25px;
+  box-shadow: 2px 3px 5px wheat;
+  margin: 5px;
+  /* background-color:cadetblue; */
+  position: relative;
+  margin-left: 25px;
+  font-weight: 500;
+}
+#navbarSupportedContent{
+  margin-left: 135px;
+  position: relative;
+}
+.nav-link:hover{
+  background-color: wheat;
+  font-weight: 500;
+}
+#welcome-message{
+  position: relative;
+  top: -450px;
+  left: 190px;
+}
+#h2{
+  position: absolute;
+  top: 350px;
+  margin-left: 350px;
+}
+#BookNow{
+  position: relative;
+  top: -355px;
+  left: 550px;
+}
+
+.background-image{
+  background-image: url('https://cdn.pixabay.com/photo/2018/08/19/10/16/nature-3616194_1280.jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* 
+.btn {
+  color: rgb(62, 41, 2);
+  background-color: silver;
+  font-weight: bolder;
+  border-radius: 35PX;
+  border: 2px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+} */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: gray;
+}
+#changetext {
+  color: #ebcd0e;
+  font-size: 30px;
+}
+#changetext:after {
+  content: "";
+  font-size: 55px;
+  animation-name: changetextanim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes changetextanim {
+  20% {
+    content: "India";
+    color: orangered;
+  }
+  25% {
+    content: "Germany";
+    color: rgb(0, 255, 251);
+  }
+  50% {
+    content: "Maldives";
+    color: rgb(0, 255, 110);
+  }
+  75% {
+    content: "Switzerland";
+    color: rgb(255, 0, 93);
+  }
+  100% {
+    content: "Australia";
+    color: #0e3eeb;
+  }
+}
+
+#login{
+  font-size: 20px;
+  background-color: gray;
+  color: wheat;
+  padding: 2px;
+  
+
+}
+
+#register{
+  font-size: 20px;
+  background-color: gray;
+  color: wheat;
+  padding: 2px;
+  margin: 5px;
+
+}
+
+
+
+
+
+
+
+

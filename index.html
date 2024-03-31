@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shailesh Travelling House</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<script
+src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+crossorigin="anonymous"
+></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+   crossorigin="anonymous">
+  </head>
+
+  <body>
+
+        <!-- Nav starting -->
+        <nav class="navbar navbar-expand-lg">
+          <img
+            id="logoimg"
+            src="travel (1).png"
+            alt="logo"
+          />
+          <a class="navbar-brand" href="#">Shailesh Travelling Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Packages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">United State</a>
+                  <a class="dropdown-item" href="#">India</a>
+                  <a class="dropdown-item" href="#">France</a>
+                  <a class="dropdown-item" href="#">Germany</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </div>
+              </li>
+            </ul>
+    
+            <!-- <button class="btn btn-success" id="register-btn" data-toggle="modal" data-target="#registerModal">REGISTER</button> &nbsp;
+            <button
+              class="btn btn-success"
+              id="login-btn"
+              data-toggle="modal"
+              data-target="#loginmodal"
+            >
+              LOG IN
+            </button> -->
+
+            <a href="login.html">
+            <button class="button" id="login">Login</button>
+          </a>
+          <a href="registration.html">
+            <button class="button" id="register">Register</button>
+          </a>
+
+
+          
+          </div>
+        </nav>
+        <!-- End of nav -->
+    
+    
+        <div class="background-image"></div>
+    
+        <div class="container">
+          <h1 id="welcome-message">WELCOME TO SHAILESH TRAVELLING HOUSE</h1>
+          <h2 id="h2">Visit Your Place - <span id="changetext"></span></h2>
+          <button class="btn btn-success" id="BookNow">Book Now</button>
+        </div>
+    
+        <!-- <div class="modal" id="loginmodal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">Login Form</div>
+              <div class="modal-body">Login Form Details Will Be Here!</div>
+            </div>
+          </div>
+        </div> -->
+    <!--  -->
+
+    <div class="checkpoint2">
+      <div class="main-container-1">
+        <div class="left-image-section">
+            <img src="travel (1).png" alt="">
+        </div>
+        <div class="right-main-container"> 
+            <form>
+              <div class="mb-3">
+                  <input required
+                    type="text"
+                    class="form-control"
+                    id="destination"
+                    list="bookingPlaces"
+                    placeholder="Where To"
+                    required
+                  />
+                  <datalist id="bookingPlaces">
+                    <option value="South Korea">South Korea</option>
+                    <option value="Ukrian">Ukrian</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Afgistan">Afgistan</option>
+                    <option value="South Arab">South Arab</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Pakistan">Pakistan</option>
+                  </datalist>
+              </div><br>
+              <label for="people">How Many Person:</label>
+              <input required style="padding: 10px; border-radius: 10px;" type="number" id="people" name="people" min="1"><br><br>
+              <label for="start-date">Start Date:</label>
+              <input required style="padding: 10px; border-radius: 10px;" type="date" id="start-date" name="start-date" value="" onchange="setMinEndDate()"><br><br>
+              <label for="end-date">End Date:</label>
+              <input required style="padding: 10px; border-radius: 10px;" type="date" id="end-date" name="end-date" min="" disabled><br><br>
+              <label for="description">Description:</label><br>
+              <textarea style="padding: 10px; border-radius: 10px;" id="description" name="description" rows="4" cols="50" minlength="50" maxlength="500"></textarea><br><br>
+              <button style="padding: 10px; border-radius: 10px; background-color: rgb(255, 109, 4);" type="button" onclick="bookNow()">Book Now</button>
+          </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <h3>Book Packages as You Want</h3>
+      <h3>🙂✈️🧳🚢🚖🚌😊</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSOx5FD5seDIfiCz2GCkb7J2n7h32PF5rs6bkiDeYBKJ10Fkt4qKZqulU8GLpbf3QmkEAbrdlb4KxffIabnpX8jNouhv0cJCRqrtdKfRA"
+              alt="Package Image"
+            />
+            <h3>India</h3>
+            <p>
+             <b>Munnar</b> is a picturesque hill station nestled in the Western Ghats of Kerala, India,
+              renowned for its lush green tea plantations and mist-covered hills.
+              Visitors to Munnar can experience breathtaking landscapes,
+               explore tea estates, and enjoy a serene retreat in the midst of nature.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+
+            <p>Price: <span class="price">$80</span></p>
+
+            <p>Rating: 4.5</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTN3gIF351vDbr4KNJh2RdgSG6Fhg0PIYRgkU-ieIBiGajHt3OIib7lX_osd_TgvdVvDL-FUsI0rwg_LITRfG1MpZisSc5X1kG_Ao74xg"
+              alt="Package Image"
+            />
+            <h3>Italy</h3>
+            <p>
+              <b>Italy,</b> located in southern Europe, is renowned for its rich cultural heritage, historic landmarks 
+              such as the Colosseum and the Leaning Tower of Pisa, and its delectable cuisine, including pasta, pizza, and gelato.
+              coastlines, rolling hills, and the iconic Alps, Italy attracts millions of visitors each year.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+
+            <p>Price: <span class="price">$23</span></p>
+            <p>Rating: 4.8</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPNqJjqZMTr0x1byLyL4Y_RrgbjJIw4UOdXnDPk=w675-h390-n-k-no" alt="Package Image" />
+            <h3>Paris</h3>
+            <p>
+             <b>Paris,</b> the capital of France, is renowned for its iconic landmarks such as the Eiffel Tower, 
+             Louvre Museum, and Notre-Dame Cathedral, attracting millions of tourists each year.
+               fashion, and gastronomy, making it a global center of art, style, and culinary excellence.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+
+            <p>Price: <span class="price">$100</span></p>
+            <p>Rating: 4.8</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <!-- End of 1st row -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://lh5.googleusercontent.com/p/AF1QipPgzRltsFz4d0HDzmgY0-7yywODzR525KZjdM3n=w675-h390-n-k-no"
+              alt="London"
+            />
+            <h3>London</h3>
+            <p><b>London</b> such as the Tower Bridge and Buckingham Palace, and a thriving cultural scene.
+              London, the capital.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+
+            <p>Price: <span class="price">$90</span></p>
+
+            <p>Rating: 4.5</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img src="https://plus.unsplash.com/premium_photo-1661962435210-e6cdbb2cbeb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2VybWFueXxlbnwwfHwwfHx8MA%3D%3D" alt="Package Image" />
+            <h3>Germany</h3>
+            <p>
+              <b>Germany</b> is a country located in central Europe, known for its rich histor. It is a federal figures
+               in philosopout its history.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+
+            <p>Price: <span class="price">$100</span></p>
+            <p>Rating: 4.8</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR9EaGSWB1-fsEEzo66iy3nfgCyh9D-WdF7qAljD9RlrKv6StU6mVGSsn3cCuHIOrNusDmKwjD-Hu0797p9T5MAfxrQO5f52TZG10iNcA"
+              alt="china"
+            />
+            <h3>China</h3>
+            <p>
+             <b>China</b> is the world's most populous country, kn, and rapid economic developms and is a key player in .
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+
+            <p>Price: <span class="price">$100</span></p>
+            <p>Rating: 4.2</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <!-- end of 2nd row -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://lh5.googleusercontent.com/p/AF1QipO8NaP5Wdq5KmCPYdzzWwsG9k4DCegxyodG8M2D=w675-h390-n-k-no"
+              alt="New York"
+            />
+            <h3>NewYork</h3>
+            <p>
+              <b>New York,</b> often referred to as "The Big Apple," is a bustling metropolis on the northeastern coast of the United States.
+               New York City attracts millions of visitors each year with its vibrant energy and myriad attractions.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+
+            <p>Price: <span class="price">$20</span></p>
+
+            <p>Rating: 4.5</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSyPzHQ1pgXN-t6Bc76YoXUnp9I0ZinKHy1yPqrRhHj4RL43t2FsGTy0_Dlv5LxWbU3cXsYLGrQOvhFjxyuFKmsMbwb3HyC3HYbdBeedYE"
+              alt="Package Image"
+            />
+            <h3>America</h3>
+            <p>
+             <b> America,</b> a diverse and vast nation, is known for its rich cultural tapestry, democratic values, and economic influence on the global stage.
+               Spanning from the Atlantic to the Pacific, the Unitedreedom and opportunity for many around the world.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+
+            <p>Price: <span class="price">$60</span></p>
+            <p>Rating: 3.2</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTqB9HGsq5V6bUgjGQSGruEaaUifDugSbE3Zfst8n1yOF-GOPaLsRFNUuhK6Sg6rg14lXx8wQYh67TYRrEbUxkjlVNEFEQBOS4D1XMGWQ"
+              alt="Dubai"
+            />
+            <h3>Dubai</h3>
+            <p>
+              <b>Dubai </b>is a vibrant and modern city located in the United Arab Emirates, known for its stunning skyline adorned with futuristic skyscrapers like the Burj Khalifa, the world's tallest building, 
+              Dubai has emerged as a global business and tourism hub.
+            </p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+
+            <p>Price: <span class="price">$100</span></p>
+            <p>Rating: 4.2</p>
+            <button class="orange">Book Now</button>
+          </div>
+        </div>
+
+        <div class="offers">
+          <div>
+            <h3>🙂Services Offered by Our Company🙂</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="https://images.unsplash.com/photo-1506059612708-99d6c258160e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <h3>Affordable Hotel</h3>
+                <ul>
+                  <li>Find budget-friendly accommodations</li>
+                  <li>Discounted rates</li>
+                  <li>Free breakfast included</li>
+                  <li>Special deals for frequent guests</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="https://images.unsplash.com/photo-1506553493793-ccfd9f4371fa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Food & Drinks"
+                />
+                <h3>Food & Drinks</h3>
+                <ul>
+                  <li>Explore delicious cuisines and beverages</li>
+                  <li>Local and international menu options</li>
+                  <li>Vegetarian and vegan-friendly</li>
+                  <li>Happy hour discounts</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="https://images.unsplash.com/photo-1511068797325-6083f0f872b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Safety Guide"
+                />
+                <h3>Safety Guide</h3>
+                <ul>
+                  <li>Stay informed about safety measures</li>
+                  <li>24/7 security surveillance</li>
+                  <li>Emergency contact information</li>
+                  <li>First aid kits available</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="https://images.unsplash.com/photo-1563980714252-74345152712e?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <h3>Transportation</h3>
+                <ul>
+                  <li>Convenient travel options for your journey</li>
+                  <li>Airport shuttle service</li>
+                  <li>Rent-a-car service</li>
+                  <li>Local transportation guides</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="https://images.unsplash.com/photo-1639928752046-c7e84dfafac4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <h3>Local Attractions</h3>
+                <ul>
+                  <li>Discover popular tourist spots</li>
+                  <li>Museums, parks, and landmarks</li>
+                  <li>Guided tours available</li>
+                  <li>Discounted tickets</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  id="etc"
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Customer Support"
+                />
+                <h3>Customer Support</h3>
+                <ul>
+                  <li>24/7 assistance available</li>
+                  <li>Live chat support</li>
+                  <li>Phone and email support</li>
+                  <li>Helpdesk for inquiries</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Checkpoint 3 -->
+
+<div class="container-fluid my-5" id="slider">
+  <h2 class="text-center mb-3">🌄🏔️GALLERY MEMORIES🌄🏔️</h2>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="ggf.jpeg" alt="INDIA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>INDIA</h5>
+          <p>Discover the vibrant tapestry of India's culture, from the majestic Taj Mahal to the bustling streets of Delhi. Indulge in the rich flavors of Indian cuisine, explore ancient temples, and immerse yourself in the warmth of traditional hospitality. 
+            With diverse landscapes, colorful festivals, and a history that spans millennia, India offers an unforgettable journey for every traveler.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="dark-nature-wfvuga4py1sgn29r.jpg" alt="LONDON">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LONDON</h5>
+          <p>London is the capital city of the United Kingdom. It is the U.K.'s largest metropolis and its economic, transportation, and cultural centre. London is also among the oldest of the world's great cities, with its history spanning nearly two millennia.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="dark-nature-ihhr4pq5dxhkb9sc.jpg" alt="CHINA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CHINA</h5>
+          <p>Explore the ancient wonders of the Great Wall, marvel at the modern skyline of Shanghai, and immerse yourself in the rich culture and cuisine of China's diverse regions with our unforgettable tours.
+             Start your journey with us today!</p>
+        </div>
+      </div>
+  
+      <div class="carousel-item ">
+        <img class="d-block w-100" src="beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.avif" alt="PARIS">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PARIS</h5>
+          <p>Experience the timeless charm of Paris, where every street corner exudes romance and history. Marvel at iconic landmarks such as the Eiffel Tower and Notre-Dame Cathedral, 
+            stroll along the Seine River, and indulge in exquisite French cuisine and world-class shopping.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="flower.jpg" alt="ITALY">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>ITALY</h5>
+          <p>
+            Discover Italy's timeless beauty where ancient ruins, Renaissance art, and culinary delights converge. From the iconic Colosseum in Rome to the romantic canals of Venice,
+             immerse yourself in rich history, vibrant culture, and picturesque landscapes.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="nature dark.jpg" alt="AMERICA">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>AMERICA</h5>
+          <p>Explore the vast beauty of America's diverse landscapes, from the towering peaks of the Rockies to the sun-kissed beaches of California. Immerse yourself in vibrant city life, from the iconic skyline of New York City to the cultural melting pot of New Orleans. Experience the rich tapestry of history,
+             culture, and adventure that awaits in every corner of the United States.</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+
+<div class="container-fluid my-5" id="aboutus">
+  <h2 class="text-center mb-3">← ABOUT US →</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="LETUS GO.jpg" width="80%" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h5 class="my-3" id="about-us-heading">SHAILESH TRAVELLING HOUSE</h5>
+      <p>Welcome to SHAILESH TRAVELLING HOUSE, your ultimate destination for all things travel! Whether you're a seasoned globetrotter or a first-time adventurer, we're here to inspire, assist, 
+        and guide you on your journey to discovering the world's wonders.
+        At SHAILESH TRAVELLING HOUSE, we believe that travel is not just about reaching a destination, but about the experiences, memories, and connections made along the way. That's why we curate
+         a diverse range of destinations, itineraries, and travel tips to cater to every type of traveler.
+        Explore our comprehensive destination guides. Dive into our collection of adrenaline-pumping activities, from trekking through lush rainforests to diving into crystal-clear waters.
+        For those seeking relaxation, browse our selection of luxury resorts, boutique hotels, and serene retreats where you can unwind and rejuvenate amidst breathtaking natural landscapes.
+         And if you're a budget-conscious traveler, fear not! We offer budget-friendly tips, affordable accommodations, and money-saving hacks to help you make the most of your journey without breaking the bank.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer  -->
+
+<div class="footer mt-5 ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <h4><i class="bi bi-airplane-engines"></i><u>Shailesh Traveling House</u></h4>
+        <p>Join our vibrant community of travelers, share your own adventures, and connect with like-minded individuals from around the globe.
+           Whether you're dreaming of a romantic getaway, a family vacation, or a solo expedition.
+           Shailesh Traveling House Embark on your next adventure today and let the journey begin!</p>
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <ul class="list-unstyled text-left footer-links" id="footer-links">
+              <h4><i class="bi bi-link-45deg" id="links"></i><u>Links</u></h4>
+              <li><a href="#" class="nav-link"><i class="bi bi-house-door-fill"></i>Home</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-menu-button"></i>Book</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-image"></i>Gallery</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-bag"></i>Packages</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-gear-fill"></i>Services</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-file-earmark-person-fill"></i>AboutUs</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h4><i class="bi bi-bezier2" id="links"></i><u>Services</u></h4>
+            <ul class="list-unstyled text-left footer-links">
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Affordable hotels</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Food & Drinks</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Safety Guide</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Entertainment</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Pool & Spa</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-asterisk"></i>Transportation</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4><i class="bi bi-bookmark-plus" id="links"></i><u>Follow Us On</u></h4>
+            <ul class="list-unstyled text-left footer-link" id="footer-content">
+              <li><a href="#" class="nav-link"><i class="bi bi-whatsapp"></i>WhatsApp</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-instagram"></i>Instagram</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-twitter"></i>Twitter</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-facebook"></i>Facebook</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-linkedin"></i>LinkedIn</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-youtube"></i>Youtube</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div><br>
+    <div class="text-center"><b>&copy;2024 Shailesh Travelling House.All Rights are Reserved</b></div>
+  </div>
+     
+</div>
+</div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
